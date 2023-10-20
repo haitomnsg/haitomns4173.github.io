@@ -435,3 +435,52 @@ footer {
 footer p {
   text-align: center;
 }
+
+#hardware {
+  color: rgb(53, 53, 53); 
+  padding: 40px 0;
+  text-align: center;
+  height: 155vh;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hardware-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hardware-project {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff; 
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgb(85, 85, 85);
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.hardware-project:hover {
+  transform: translateY(-5px);
+}
+
+.hardware-project-img {
+  border-radius: 0.5rem;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.hardware-project-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.hardware-project-description {
+  font-size: 14px;
+}

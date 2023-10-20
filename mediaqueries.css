@@ -101,3 +101,15 @@
     text-align: justify;
   }
 }
+
+
+@media (max-width: 768px) {
+  .hardware-projects-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .hardware-project {
+      width: 80%;
+  }
+}

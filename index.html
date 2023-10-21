@@ -2,334 +2,340 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta
-    content="Explore the programming journey of Haitomns, a dedicated programmer. Haitomns is on a quest to explore the world of AI and Robotics."
-    name="description">
-  <meta content="Haitomns, Haitomns Groups, Programmer, Desktop Development, Web Developer" name="keywords">
+    <meta
+        content="Explore the programming journey of Haitomns, a dedicated programmer. Haitomns is on a quest to explore the world of AI and Robotics."
+        name="description">
+    <meta content="Haitomns, Haitomns Groups, Programmer, Desktop Development, Web Developer" name="keywords">
 
-  <link href="assets\favicon.png" rel="icon">
+    <link href="assets\favicon.png" rel="icon">
 
-  <title>Haitomns Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Haitomns Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
 </head>
 
 <body>
-  <nav id="desktop-nav">
-    <div class="logo">Haitomns</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">Haitomns</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-      </div>
-    </div>
-  </nav>
-  <section id="profile">
-    <div class="section__pic-container">
-      <img src="./assets/profile-pic.png" alt="Haitomns Profile Picture" />
-    </div>
-    <div class="section__text">
-      <p class="section__text__p1">Hey, it's me</p>
-      <h1 class="title">Haitomns</h1>
-      <p class="section__text__p2">I'm a Programmer</p>
-      <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/Haitomns_Resume.pdf')">Download CV</button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me</button>
-      </div>
-      <div id="socials-container">
-        <img src="./assets/instagram.png" alt="Instagram" class="hero-icon"
-          onclick="location.href='https://www.instagram.com/haitomnsg'" />
-        <img src="./assets/linkedin.png" alt="LinkedIn" class="hero-icon"
-          onclick="location.href='https://www.linkedin.com/in/haitomns-g-839601231/'" />
-        <img src="./assets/github.png" alt="GitHub" class="hero-icon"
-          onclick="location.href='https://github.com/haitomns4173'" />
-      </div>
-    </div>
-  </section>
-  <section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
-      <div class="section__pic-container">
-        <img src="./assets/about-pic.png" alt="Haitomns G Profile picture" class="about-pic" />
-      </div>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <img src="./assets/experience.png" alt="Experience Icon" class="icon" />
-            <h3>Experience</h3>
-            <p>3+ years <br />Desktop and Web Developer</p>
-          </div>
-          <div class="details-container">
-            <img src="./assets/education.png" alt="Education icon" class="icon" />
-            <h3>Education</h3>
-            <p>Class 12</p>
-            <p>Technical Education in <br />Computer Engineering</p>
-          </div>
+    <nav id="desktop-nav">
+        <div class="logo">Haitomns</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div class="text-container">
-          <p>
-            Diligent and rigorous programmer who has got slight a bit experience working in the field of programming
-            looking forward to explore the field of AI and Robotics.
-          </p>
-        </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
-  </section>
-  <section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Desktop Development</h2>
-          <div class="article-container">
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-              <div>
-                <h3>C</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-              <div>
-                <h3>C++</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-              <div>
-                <h3>Python</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-              <div>
-                <h3>Java</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-              <div>
-                <h3>SQL</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Web Development</h2>
-          <div class="article-container">
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-              <div>
-                <h3>HTML&CSS</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-              <div>
-                <h3>PHP</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-              <div>
-                <h3>JavaScript</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
-              <div>
-                <h3>Wordpress</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'" />
-  </section>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">RestHat</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/haitomns4173/restHatLive'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://resthat.haitomns.com/'">
-              Live Demo
-            </button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">RedSoil</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/haitomns4173/redsoilApp'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/haitomnsgroups/redsoilApp/releases/tag/v1.0-stable'">
-              Download
-            </button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Pharmear</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/haitomns4173/pharmear'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/haitomns4173/pharmear/releases/tag/1.2.3'">
-              Download
-            </button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-4.png" alt="Project 4" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Tournament Hub</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/haitomns4173/tournamenthub'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://haitomns.tech/tournamenthub'">
-              Live Demo
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#hardware'" />
-  </section>
-
-  <section id="hardware">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Hardware Projects</h1>
-    <div class="hardware-projects-container">
-      <!-- Hardware Project 1 -->
-      <div class="hardware-project">
-        <img src="./assets/aoac.jpg" alt="Hardware Project 1" class="hardware-project-img" />
-        <h2 class="hardware-project-title">Arduino Obstacle Avoiding Car</h2>
-        <p class="hardware-project-description">
-          Its a simple obstacle avoiding car made using Arduino Uno, Ultrasonic Sensor, L293D Motor Driver and 4 geared
-          DC motors.
-        </p>
-      </div>
-
-      <!-- Hardware Project 2 -->
-      <div class="hardware-project">
-        <img src="./assets/creeper.jpg" alt="Hardware Project 2" class="hardware-project-img" />
-        <h2 class="hardware-project-title">Multi-Utility Disaster Rescue Vehicle</h2>
-        <p class="hardware-project-description">
-          Its a rescue vehicle for military which help to rescue the victim, with the help of robotics arms drone
-          surveillance, fire extinguisher and many more.
-        </p>
-      </div>
-
-      <!-- Hardware Project 3 -->
-      <div class="hardware-project">
-        <img src="./assets/fb.jpg" alt="Hardware Project 3" class="hardware-project-img" />
-        <h2 class="hardware-project-title">Face Tracking Robot</h2>
-        <p class="hardware-project-description">
-          Its a face tracking robot made using Arduino Uno, MU Sensor 3 which recognize the face, traffic signs and
-          drives accordingly.
-        </p>
-      </div>
-
-      <!-- Hardware Project 4 -->
-      <div class="hardware-project">
-        <a href="https://scrapbook.hackclub.com/HaitomnsG-U04FQKQMCET" target="_blank">
-          <img src="./assets/speaker.jpeg" alt="Hardware Project 4" class="hardware-project-img" />
-        </a>
-        <h2 class="hardware-project-title">Alexa Smart Speaker</h2>
-        <p class="hardware-project-description">
-          Its a smart speaker made using Raspberry Pi 4 which can be used to play music, search on google, ask questions
-          and many more.
-        </p>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon" />
-        <p><a href="mailto:haitomns4173@gmail.com" target="_blank">haitomns4173@gmail.com</a></p>
-      </div>
-      <div class="contact-info-container">
-        <img src="./assets/phone.png" alt="Phone Icon" class="icon contact-icon" />
-        <p><a href="tel:+9779809204764" target="_blank">+9779809204764</a></p>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <nav>
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
     </nav>
-    <p>Copyright &#169; 2023 Haitomns G. All Rights Reserved.</p>
-  </footer>
-  <script src="script.js"></script>
+    <nav id="hamburger-nav">
+        <div class="logo">Haitomns</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Haitomns Profile Picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hey, it's me</p>
+            <h1 class="title">Haitomns</h1>
+            <p class="section__text__p2">I'm a Programmer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Haitomns_Resume.pdf')">Download
+                    CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/instagram.png" alt="Instagram" class="hero-icon"
+                    onclick="location.href='https://www.instagram.com/haitomnsg'" />
+                <img src="./assets/linkedin.png" alt="LinkedIn" class="hero-icon"
+                    onclick="location.href='https://www.linkedin.com/in/haitomns-g-839601231/'" />
+                <img src="./assets/github.png" alt="GitHub" class="hero-icon"
+                    onclick="location.href='https://github.com/haitomns4173'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Haitomns G Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience Icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>3+ years <br />Desktop and Web Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>Class 12</p>
+                        <p>Technical Education in <br />Computer Engineering</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Diligent and rigorous programmer who has got slight a bit experience working in the field of
+                        programming
+                        looking forward to explore the field of AI and Robotics.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Desktop Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>C</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>C++</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>HTML&CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>Wordpress</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">RestHat</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/haitomns4173/restHatLive'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://resthat.haitomns.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">RedSoil</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/haitomns4173/redsoilApp'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/haitomnsgroups/redsoilApp/releases/tag/v1.0-stable'">
+                            Download
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Pharmear</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/haitomns4173/pharmear'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/haitomns4173/pharmear/releases/tag/1.2.3'">
+                            Download
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-4.png" alt="Project 4" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Tournament Hub</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/haitomns4173/tournamenthub'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://haitomns.tech/tournamenthub'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#hardware'" />
+    </section>
+    <section id="hardware">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Hardware Projects</h1>
+        <div class="hardware-projects-container">
+            <!-- Hardware Project 1 -->
+            <div class="hardware-project">
+                <img src="./assets/aoac.jpg" alt="Hardware Project 1" class="hardware-project-img" />
+                <h2 class="hardware-project-title">Arduino Obstacle Avoiding Car</h2>
+                <p class="hardware-project-description">
+                    Its a simple obstacle avoiding car made using Arduino Uno, Ultrasonic Sensor, L293D Motor Driver and
+                    4 geared
+                    DC motors.
+                </p>
+            </div>
+
+            <!-- Hardware Project 2 -->
+            <div class="hardware-project">
+                <img src="./assets/creeper.jpg" alt="Hardware Project 2" class="hardware-project-img" />
+                <h2 class="hardware-project-title">Multi-Utility Disaster Rescue Vehicle</h2>
+                <p class="hardware-project-description">
+                    Its a rescue vehicle for military which help to rescue the victim, with the help of robotics arms
+                    drone
+                    surveillance, fire extinguisher and many more.
+                </p>
+            </div>
+
+            <!-- Hardware Project 3 -->
+            <div class="hardware-project">
+                <img src="./assets/fb.jpg" alt="Hardware Project 3" class="hardware-project-img" />
+                <h2 class="hardware-project-title">Face Tracking Robot</h2>
+                <p class="hardware-project-description">
+                    Its a face tracking robot made using Arduino Uno, MU Sensor 3 which recognize the face, traffic
+                    signs and
+                    drives accordingly.
+                </p>
+            </div>
+
+            <!-- Hardware Project 4 -->
+            <div class="hardware-project">
+                <a href="https://scrapbook.hackclub.com/HaitomnsG-U04FQKQMCET" target="_blank">
+                    <img src="./assets/speaker.jpeg" alt="Hardware Project 4" class="hardware-project-img" />
+                </a>
+                <h2 class="hardware-project-title">Alexa Smart Speaker</h2>
+                <p class="hardware-project-description">
+                    Its a smart speaker made using Raspberry Pi 4 which can be used to play music, search on google, ask
+                    questions
+                    and many more.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon" />
+                <p><a href="mailto:haitomns4173@gmail.com" target="_blank">haitomns4173@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/phone.png" alt="Phone Icon" class="icon contact-icon" />
+                <p><a href="tel:+9779809204764" target="_blank">+9779809204764</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; <script> document.write(new Date().getFullYear()) </script> Haitomns G. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
